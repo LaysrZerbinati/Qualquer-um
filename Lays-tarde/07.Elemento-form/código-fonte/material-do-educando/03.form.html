@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms em HTML</title>
+</head>
+
+<body>
+
+    <header> 
+        <h1>Exemplo de formulário no HTML</h1>
+    </header>
+
+    <form action="#">
+        <fieldset>
+<legend>informações extras</legend>
+    <label for="Lista de times">Selecione seu time:</label>
+    <input autocomplete="on" list="Times" id="Lista de times" placeholder="Seu time">
+    <datalist id="Times">
+        <option value="Cruzeiro"></option>
+        <option value="São Paulo"></option>
+        <option value="Corinthians"></option>
+        <option value="Grêmio"></option>
+        <option value="Santos"></option>
+    </fieldset>
+    </datalist>
+<br>
+<fieldset>
+    <legend>Range</legend>
+0
+<input type="range" id="tb01" name="tb02">
+100
+</fieldset>
+<br><br>
+<fieldset>
+    <legend>Sua sugestão</legend>
+<textarea name="Sugestão" id="sugetão" cols="30" rows="10" required placeholder="Deixe sua sugestão de livro para mim:">
+</textarea>
+</fieldset>
+<br>
+<br>
+<input type="submit" value="Enviar">
+
+</form>
+<br><br>
+    <footer>
+     <small>  Copyright&copy; - Todos os direitos reservados a Lays Raica.</small> 
+    </footer>
+
+</body>
+
+</html>
